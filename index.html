@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audioread - Upload</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="light">
+    <header class="app-header">
+        <div class="logo-container">
+            <i class="fas fa-book-reader logo-icon"></i>
+            <h1>Audioread</h1>
+        </div>
+        <nav class="main-nav">
+            <button class="nav-btn" id="themeToggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="upload-container">
+            <h2>Upload Your PDF</h2>
+            <p>Drag & drop your file here or click to select</p>
+            <div id="drop-zone">
+                <i class="fas fa-file-pdf drop-icon"></i>
+                <p id="drop-text">Drop your PDF file here</p>
+                <input type="file" id="fileInput" accept="application/pdf" hidden />
+            </div>
+            <div id="loading-indicator" style="display: none;">
+                <i class="fas fa-spinner fa-spin"></i> Processing...
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.13.216/pdf.min.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>

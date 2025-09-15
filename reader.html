@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audioread - Reader</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="light">
+    <header class="app-header">
+        <div class="logo-container">
+            <i class="fas fa-book-reader logo-icon"></i>
+            <h1>Audioread</h1>
+        </div>
+        <nav class="main-nav">
+             <a class="nav-btn" href="index.html"><i class="fas fa-file-pdf"></i> Upload New</a>
+            <button class="nav-btn" id="themeToggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <div class="container reader-mode">
+        <div class="reader-container">
+            <div id="pagesContainer" class="pages">
+                </div>
+        </div>
+    </div>
+    
+    <footer class="reader-footer">
+        <div class="controls">
+            <button id="rewindBtn" class="control-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="playPauseBtn" class="control-btn primary"><i class="fas fa-play"></i></button>
+            <button id="forwardBtn" class="control-btn"><i class="fas fa-step-forward"></i></button>
+            <div class="speed-toggle">
+                 <button id="speedBtn" class="control-btn"><i class="fas fa-tachometer-alt"></i></button>
+                 <div id="speedControl" class="speed-control" style="display: none;">
+                    <div class="speed-options">
+                        <button class="speed-option" data-speed="0.5">0.5x</button>
+                        <button class="speed-option" data-speed="0.75">0.75x</button>
+                        <button class="speed-option active" data-speed="1">1x</button>
+                        <button class="speed-option" data-speed="1.25">1.25x</button>
+                        <button class="speed-option" data-speed="1.5">1.5x</button>
+                        <button class="speed-option" data-speed="2">2x</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="reader.js"></script>
+</body>
+</html>
