@@ -1,4 +1,3 @@
-Audioread 🎧
 Audioread is a modern, web-based PDF reader that brings your documents to life with integrated text-to-speech (TTS) functionality. Simply upload a PDF and listen as your document is read to you, with synchronized line-by-line highlighting.
 
 It's designed with a clean, responsive interface that provides an intuitive reading experience, whether you're on a desktop or a mobile device.
@@ -30,16 +29,10 @@ Text-to-Speech: Web Speech API
 ## Getting Started 🚀
 To run this project locally, simply follow these steps:
 
-Clone the repository:
+1.Clone the repository:'git clone https://github.com/your-username/audioread.git
 
-Bash
+2.Navigate to the project directory:'cd audioread'
 
-git clone https://github.com/your-username/audioread.git
-Navigate to the project directory:
-
-Bash
-
-cd audioread
-Open the index.html file in your web browser.
+3.Open the index.html file in your web browser.
 
 That's it! You can now upload a PDF and start using Audioread.
