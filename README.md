@@ -2,6 +2,7 @@ Audioread is a modern, web-based PDF reader that brings your documents to life w
 
 It's designed with a clean, responsive interface that provides an intuitive reading experience, whether you're on a desktop or a mobile device.
 
+Try it yourself : audioread.vercel.app
 ## Key Features ✨
 PDF Upload: Easily open local PDF files using a file selector or by dragging and dropping.
 
